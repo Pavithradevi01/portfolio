@@ -1,0 +1,37 @@
+ body{
+    background: rgb(155, 144, 84);
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container a{
+    position: relative;
+    width: 160px;
+    height:25px;
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    margin:5px 5px;
+    padding:5px 5px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size:20px;
+    font-style:normal;
+    transition: .4s ease;
+}
+.container a:hover{
+    background:red;
+}
+
+
+
+
